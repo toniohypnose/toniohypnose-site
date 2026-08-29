@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+locale: "fr"
+
+collections:
+  - name: "articles"
+    label: "Articles du blog"
+    files:
+      - name: "articles"
+        label: "Tous les articles"
+        file: "content/articles.json"
+        fields:
+          - label: "Articles"
+            name: "articles"
+            widget: "list"
+            summary: "{{titre}} — {{date}}"
+            fields:
+              - {label: "Titre", name: "titre", widget: "string"}
+              - {label: "Date", name: "date", widget: "string", hint: "Écrivez la date comme vous voulez qu'elle s'affiche, ex : 17 juin 2026"}
+              - label: "Catégorie"
+                name: "categorie"
+                widget: "select"
+                options: ["Spectacle", "Thérapie", "Actualité", "Coulisses"]
+              - {label: "Résumé", name: "resume", widget: "text", hint: "2 lignes max — affiché sur la carte d'aperçu"}
+              - {label: "Photo", name: "photo", widget: "image", required: false, hint: "Optionnelle"}
+              - {label: "ID vidéo YouTube", name: "youtube", widget: "string", required: false, hint: "Optionnel — juste l'identifiant dans l'URL, ex : S4DsDPrzpdk (pas l'URL complète)"}
+              - {label: "Contenu", name: "contenu", widget: "text", hint: "Le texte complet de l'article. Sautez une ligne entre les paragraphes."}
