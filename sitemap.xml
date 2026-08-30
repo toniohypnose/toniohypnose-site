@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://toniohypnose.fr/</loc>
+    <lastmod>2025-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://toniohypnose.fr/A7405643-Avec_accentuation-Bruit.jpg</image:loc>
+      <image:title>Antoine — Tonio Hypnose, hypnotiseur de spectacle et thérapeute à Rognac</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://toniohypnose.fr/FB_IMG_1750137091495.jpg</image:loc>
+      <image:title>Tonio Hypnose — spectacle d'hypnose sur scène</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://toniohypnose.fr/FB_IMG_1750137113072.jpg</image:loc>
+      <image:title>Tonio Hypnose — spectacle d'hypnose grande salle PACA</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://toniohypnose.fr/FB_IMG_1750137122257.jpg</image:loc>
+      <image:title>Tonio Hypnose — participants en état hypnotique lors d'un spectacle</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://toniohypnose.fr/IMG_224011.jpg</image:loc>
+      <image:title>Tonio Hypnose — animation hypnose en extérieur, soirée privée PACA</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://toniohypnose.fr/P1322747.jpg</image:loc>
+      <image:title>Tonio Hypnose — induction hypnotique en close-up</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://toniohypnose.fr/A7405551.jpg</image:loc>
+      <image:title>Tonio Hypnose — animation entreprise, groupe induction collective</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://toniohypnose.fr/#spectacle</loc>
+    <lastmod>2025-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://toniohypnose.fr/#therapie</loc>
+    <lastmod>2025-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://toniohypnose.fr/#about</loc>
+    <lastmod>2025-06-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://toniohypnose.fr/#contact</loc>
+    <lastmod>2025-06-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

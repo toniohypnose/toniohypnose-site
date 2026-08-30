@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://toniohypnose.fr/sitemap.xml
+
+# Bloquer les fichiers inutiles pour les robots
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /*.php$
