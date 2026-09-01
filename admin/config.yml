@@ -1,9 +1,12 @@
-# Use DecapBridge classic auth (required)
+# Use DecapBridge PKCE auth (required)
 backend:
   name: git-gateway
   repo: toniohypnose/toniohypnose-site
   branch: main
-  identity_url: https://auth.decapbridge.com/sites/823719de-50b5-4c67-9311-de3bf9776b04
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/823719de-50b5-4c67-9311-de3bf9776b04/pkce
+  auth_token_endpoint: /sites/823719de-50b5-4c67-9311-de3bf9776b04/token
   gateway_url: https://gateway.decapbridge.com
 
   # See who did what (optional)
